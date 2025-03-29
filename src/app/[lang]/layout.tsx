@@ -22,7 +22,7 @@ export const metadata = {
   icons: '/img/favicon.svg',
 } satisfies Metadata
 
-const repo = 'https://github.com/pdsuwwz/nextjs-nextra-starter'
+const repo = 'https://github.com/MJintern/mjintern-first-work'
 
 const CustomBanner = async ({ lang }: I18nLangAsyncProps) => {
   const { t } = await useServerLocale(lang)
@@ -129,7 +129,7 @@ export default async function RootLayout({ children, params }: Props) {
             search={<Search />}
             i18n={[
               { locale: 'en', name: 'English' },
-              { locale: 'zh', name: '简体中文' },
+              { locale: 'ko', name: '한국어' },
             ]}
             pageMap={pageMap}
             feedback={{ content: '' }}

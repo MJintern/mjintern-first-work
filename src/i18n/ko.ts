@@ -1,8 +1,8 @@
 export default {
-  systemTitle: '🚀 Nextra 启动模板',
+  systemTitle: '🚀🍻 eyaeyaho~! ',
   banner: {
-    title: '👋 嘿，欢迎来到 Next.js 起步模板!',
-    more: '了解详情',
+    title: '👋 MJ intern hobby center',
+    more: 'let is go',
   },
 
   badgeTitle: '轻量级、开箱即用 🎉',

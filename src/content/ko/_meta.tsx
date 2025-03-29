@@ -13,20 +13,28 @@ export default {
   },
   introduction: {
     type: 'page',
-    title: '这是介绍',
+    title: '글',
+    theme: {
+      navbar: true,
+      toc: false,
+    },
+  },
+  aaa: {
+    type: 'page',
+    title: '여행',
     theme: {
       navbar: true,
       toc: false,
     },
   },
   examples: {
-    title: '示例',
+    title: '일',
     type: 'page',
   },
   upgrade: {
     title: (
       <span className="flex items-center leading-[1]">
-        新变化
+        기타
         <TitleBadge />
       </span>
     ),
