@@ -7,7 +7,7 @@ export default {
 
   badgeTitle: '轻量级、开箱即用 🎉',
   featureSupport: `🔥 现在支持 {{feature}}！`,
-  lastUpdated: '最后更新于:',
+  lastUpdated: '수정일자:',
 
   getStarted: '开始使用',
 

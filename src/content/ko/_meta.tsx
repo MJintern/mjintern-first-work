@@ -24,7 +24,7 @@ export default {
     title: '여행',
     theme: {
       navbar: true,
-      toc: false,
+      toc: true,
     },
   },
   examples: {
